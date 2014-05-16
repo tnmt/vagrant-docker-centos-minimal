@@ -7,7 +7,7 @@ Vagrant setting to up centos6 docker container with only sshd, puppet.
 
     $ git clone git://github.com/tnmt/vagrant-docker-centos-minimal.git
 
-and vagrant up.
+and vagrant up with `--provider=docker`.
 
     $ cd vagrant-docker-centos-minimal
-    $ vagrant up --provider=docker
+    $ vagrant up --provider=docker 
